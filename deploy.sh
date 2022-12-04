@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "\033[31m" 
+echo -e "\033[31m"
 echo "__________              __                    ________                              "
 echo "\______   \__ __  ____ |  | __ ___________   /  _____/_____    _____   ____   ______"
 echo " |    |  _/  |  \/    \|  |/ // __ \_  __ \ /   \  ___\__  \  /     \_/ __ \ /  ___/"
@@ -71,5 +71,7 @@ fn_install_menu_bash() {
 	done
 }
 
-fn_install_menu_bash selection "TITLE" "CAPTION" $serverlist
-echo $selection
+echo $version
+
+# fn_install_menu_bash selection "TITLE" "CAPTION" $serverlist
+# echo $selection
